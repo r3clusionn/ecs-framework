@@ -1,0 +1,20 @@
+[package]
+name = "tessera"
+version = "0.1.0"
+edition = "2021"
+description = "An entity component system: archetype storage, cached queries with change detection, systems scheduled in parallel from their declared access."
+license = "MIT"
+
+[dependencies]
+workpool = { git = "https://github.com/r3clusionn/thread-pool-library", rev = "8a03458" }
+
+[profile.release]
+debug = false
+
+[dev-dependencies]
+hecs = "0.10"
+benchlab = { git = "https://github.com/r3clusionn/bench-framework", rev = "b6c8512" }
+
+[[bench]]
+name = "ecs"
+harness = false
