@@ -67,7 +67,7 @@ dependencies = [
 [[package]]
 name = "benchlab"
 version = "0.3.0"
-source = "git+https://github.com/r3clusionn/bench-framework?rev=b6c8512#b6c8512b38de65676a96038d66538eb08359541a"
+source = "git+https://github.com/r3clusionn/bench-framework?rev=390a6b4#390a6b44cb366c6e7ed38b3eecdede1353f233e2"
 dependencies = [
  "clap",
  "libm",
@@ -402,7 +402,7 @@ checksum = "589f6da84c646204747d1270a2a5661ea66ed1cced2631d546fdfb155959f9ec"
 [[package]]
 name = "workpool"
 version = "0.1.0"
-source = "git+https://github.com/r3clusionn/thread-pool-library?rev=8a03458#8a034586e206c4f87bd289d765f15de18b1e343e"
+source = "git+https://github.com/r3clusionn/thread-pool-library?rev=35ee663#35ee663e9fe77355a360849e7c8d35a90af87805"
 
 [[package]]
 name = "zerocopy"
